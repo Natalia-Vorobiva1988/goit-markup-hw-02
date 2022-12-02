@@ -7,7 +7,7 @@
 .page {
     background: #F5F5F5;
     color: var(--primary-text-color); 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -37,7 +37,6 @@ font-family: 'Raleway';
     }
  .menu .link {
     color: #2E2F42;
-    font-family:'Roboto', sans-serif;
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
@@ -54,7 +53,6 @@ color: #434455;
 
 .contacts .link {
 color: var(--primary-text-color);
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -72,7 +70,6 @@ color: #4D5AE5;
 .hero-title {
 color: #FFFFFF;
 background-color: #434455
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
@@ -82,7 +79,6 @@ background-color: #434455
 .button-order {
     color: var(--primary-white-colir);
     background: var(--accent-color); 
-    font-family: 'Roboto';
         font-weight: 600;
         font-size: 16px;
         line-height: 1.19;
@@ -103,7 +99,6 @@ background-color: #434455
 
 .about-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -113,7 +108,6 @@ background-color: #434455
 }
 .section .title {
 color: var(--title-text-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -129,7 +123,6 @@ color: var(--title-text-color);
 }
 .section .item-title {
 color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -154,7 +147,6 @@ color: var(--title-text-color);
 .filtr-btn {
     color: var(--accent-color);
     background: #F4F4FD;
-    font-family: 'Roboto';
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
