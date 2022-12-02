@@ -1,0 +1,139 @@
+:root {
+--primary-text-color:#434455;
+--title-text-color:#2E2F42;
+--accent-color:#4D5AE5;
+--primary-white-colir: #FFFFFF;
+}
+.page {
+    background: #F5F5F5;
+    color: var(--primary-text-color); 
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.list  {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* Шапка сайта */
+.header {
+    background: #FFFFFF;;
+}
+.logo { 
+    color: aquamarine;
+
+    }
+ .menu .link {
+    color: #2E2F42;
+    font-family:'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;   
+}
+.menu .link:hover,
+.menu .link:focus {
+color: #434455;
+}
+.menu .link:active {
+    color: #4D5AE5;
+}
+.contacts .link {
+color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+.contacts .link:hover,
+.contacts .link:focus {
+color: #4D5AE5;
+}
+/* Главная секция */
+.hero {
+    background: #2E2F42;
+}
+.hero-title {
+color: #FFFFFF;
+background-color: #434455
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.button-order {
+    color: var(--primary-white-colir);
+    background: var(--accent-color); 
+    font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.19;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+}
+.button-order:hover 
+.button-order:focus {
+    color: var(--primary-white-colir);
+    background: var(--accent-color);
+}
+.button-order:active {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+/* Cекции */
+
+.about-title {
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+}
+.section .title {
+color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+}
+.section .item-text {
+color: var(--title-text-color);
+   
+    
+}
+.section .item-title {
+color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+}
+.team-section {
+    background: #F4F4FD;
+}
+/* Підвал */
+.footer {
+    background: #2E2F42;;
+}
+.footer .text {
+    color: #E7E9FC;
+}
