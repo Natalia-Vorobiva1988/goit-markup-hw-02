@@ -24,8 +24,16 @@
     background: #FFFFFF;;
 }
 .logo { 
-    color: aquamarine;
-
+    color: var(--title-text-color);
+font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    .logo-colored {
+        color: var(--accent-color);
     }
  .menu .link {
     color: #2E2F42;
@@ -43,6 +51,7 @@ color: #434455;
 .menu .link:active {
     color: #4D5AE5;
 }
+
 .contacts .link {
 color: var(--primary-text-color);
     font-family: 'Roboto';
@@ -134,6 +143,25 @@ color: var(--title-text-color);
 .footer {
     background: #2E2F42;;
 }
+.white-logo {
+    color: #F4F4FD;
+}
 .footer .text {
     color: #E7E9FC;
+}
+
+/* ПОРТФОЛІО */
+.filtr-btn {
+    color: var(--accent-color);
+    background: #F4F4FD;
+    font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+    color: var(--primary-white-colir);
+    background: var(--accent-color);
 }
