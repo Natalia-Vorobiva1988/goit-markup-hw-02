@@ -151,6 +151,7 @@ color: var(--title-text-color);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        cursor: pointer;
 }
 .filtr-btn:hover,
 .filtr-btn:focus {
