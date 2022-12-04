@@ -90,7 +90,7 @@ background-color: var(--title-text-color);
 }
 .button-order:active {
     color: var(--primary-white-colir);
-    background: var(--accent-color);
+    background: #404BBF
 }
 /* Cекции */
 
