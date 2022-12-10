@@ -198,6 +198,9 @@ color: var(--title-text-color);
 .about-section .list {
     display: flex;
     }
+.about-section .item {
+        margin-right: 24px;
+    }
 <!-- Виды услуг -->
 .activity-section .list {
 display: flex;
@@ -214,6 +217,9 @@ display: flex;
 .team-section .list {
     display: flex;
     flex-wrap: wrap;
+}
+.employe-card {
+
 }
 .team-img {
 
