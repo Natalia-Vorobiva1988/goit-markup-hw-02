@@ -11,16 +11,58 @@ body {
         font-size: 16px;
         letter-spacing: 0.02em;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
 .list  {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 /* Шапка сайта */
+.header .container {
+    display: flex;
+    align-items: center;
+}
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.menu.list {
+    display: flex;
+    align-items: center;
+}
+.contacts.list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 .logo { 
+    margin-right: 77px;
     color: var(--title-text-color);
 font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -31,6 +73,12 @@ font-family: 'Raleway', sans-serif;
     }
     .logo-colored {
         color: var(--accent-color);
+    }
+    .menu-item:not(:last-child) {
+margin-right: 40px;
+    }
+    .telephone {
+        margin-right: 40px;
     }
  .menu .link {
     color: var(--title-text-color);
@@ -72,6 +120,12 @@ background-color: var(--title-text-color);
     letter-spacing: 0.02em;
 }
 .button-order {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+    gap: 10px;
     color: var(--primary-white-colir);
     background: var(--accent-color); 
         font-weight: 500;
@@ -111,21 +165,58 @@ color: var(--title-text-color);
     letter-spacing: 0.02em;
     
 }
+.section {
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: tomato;
+}
 .section .item-text {
 color: var(--title-text-color);
-   
-    
+}
+.title {
+    margin-bottom: 72px;
 }
 .section .item-title {
+    margin-bottom: 8px;
 color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    
+    letter-spacing: 0.02em; 
 }
+
+.about-section.section {
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 120px;
+    padding-bottom: 0px;
+    background: #404BBF;
+}
+
+.about-section .list {
+    display: flex;
+    }
+<!-- Виды услуг -->
+.activity-section .list {
+display: flex;
+}
+.activity-img:not(:nth-last-child(3)) {
+    margin-right: 24px;
+}
+
+
+<!-- Команда -->
 .team-section {
     background: #F4F4FD;
+}
+.team-section .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-img {
+
 }
 /* Підвал */
 .footer {
