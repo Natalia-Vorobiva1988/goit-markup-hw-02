@@ -110,7 +110,16 @@ color: var(--accent-color);
 .hero {
     background: var(--title-text-color);
 }
+.hero .container {
+    padding-top: 192px;
+    padding-bottom: 192px;
+    padding-left: 464px;
+    padding-right: 464px;
+    height: 603px;
+    width: 1440px;
+}
 .hero-title {
+    margin-bottom: 48px;
 color: var(--primary-white-colir);
 background-color: var(--title-text-color);
     font-weight: 500;
@@ -125,7 +134,7 @@ background-color: var(--title-text-color);
     padding-top: 16px;
     padding-bottom: 16px;
     border-radius: 4px;
-    gap: 10px;
+    border: none;
     color: var(--primary-white-colir);
     background: var(--accent-color); 
         font-weight: 500;
@@ -136,6 +145,8 @@ background-color: var(--title-text-color);
         letter-spacing: 0.04em;
         cursor: pointer;
         font-family: inherit;
+        margin-left: auto;
+        margin-right: auto;
 }
 .button-order:hover 
 .button-order:focus {
@@ -170,7 +181,6 @@ color: var(--title-text-color);
     padding-right: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
-    background: tomato;
 }
 .section .item-text {
 color: var(--title-text-color);
@@ -192,46 +202,56 @@ color: var(--title-text-color);
     padding-right: 156px;
     padding-top: 120px;
     padding-bottom: 0px;
-    background: #404BBF;
 }
 
 .about-section .list {
     display: flex;
     }
-.about-section .item {
-        margin-right: 24px;
-    }
-<!-- Виды услуг -->
-.activity-section .list {
-display: flex;
-}
-.activity-img:not(:nth-last-child(3)) {
+.about-section .item:not(:nth-last-child(1)) {
     margin-right: 24px;
-}
+} 
+<!-- Виды услуг -->
 
+.activity-section-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.activity-section-list .item:not(:nth-last-child(3)) {
+    margin-right: 24px;
+} 
 
 <!-- Команда -->
-.team-section {
+
+.team-section.section {
     background: #F4F4FD;
 }
 .team-section .list {
     display: flex;
-    flex-wrap: wrap;
 }
 .employe-card {
-
+border: 1px solid var(--primary-white-colir);
+padding-top: 32px;
+text-align: center;
+background: #FFFFFF;
 }
-.team-img {
-
+.team-section .item:not(:nth-last-child(1)) {
+    margin-right: 24px;
 }
 /* Підвал */
-.footer {
+.footer .container{
+    width: 1440px;
+    height: 310px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 162px;
+    padding-right: 1020px;
     background: var(--title-text-color);
 }
 .white-logo {
     color: #F4F4FD;
 }
 .footer .text {
+    margin-top: 16px;
     color: #E7E9FC;
 }
 
