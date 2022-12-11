@@ -43,6 +43,7 @@ img {
 .header .container {
     display: flex;
     align-items: center;
+    
 }
 .header {
     padding-top: 24px;
@@ -158,7 +159,9 @@ background-color: var(--title-text-color);
     background: #404BBF
 }
 /* Cекции */
-
+.team-section {
+   background:  #F4F4FD;
+}
 .about-title {
     color: var(--title-text-color);
         font-weight: 500;
@@ -266,9 +269,22 @@ background: #FFFFFF;
     clip: rect(0 0 0 0);
     overflow: hidden;
     } 
+    .portfolio.section,
+    .filtr.section {
+        background: #F5F5F5;
+    }
+    .filtr .list {
+        display: flex;
+        justify-content: center;
+    }
 .filtr-btn {
     color: var(--accent-color);
     background: #F4F4FD;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -276,8 +292,33 @@ background: #FFFFFF;
         cursor: pointer;
         font-family: inherit;
 }
+
 .filtr-btn:hover,
 .filtr-btn:focus {
     color: var(--primary-white-colir);
     background: var(--accent-color);
+}
+.portfolio .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.portfolio .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -24px;
+    margin-left: -24px;
+}
+.portfolio-list .item {
+    flex-basis: calc(100% /3 -24px);
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.portfolio-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 10px;
+    border: 0.5px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
